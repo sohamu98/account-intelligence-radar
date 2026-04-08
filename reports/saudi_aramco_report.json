@@ -1,0 +1,112 @@
+{
+  "company_identifiers": {
+    "name": "Saudi Aramco",
+    "headquarters": "Dhahran, Eastern Province, Saudi Arabia",
+    "website": "https://www.aramco.com",
+    "founded": "1933",
+    "industry": "Oil & Gas / Energy"
+  },
+  "business_snapshot": {
+    "business_units": [
+      "Upstream (Exploration & Production)",
+      "Downstream (Refining, Chemicals, Distribution)",
+      "Aramco Trading Company",
+      "Saudi Aramco Technologies Company (SATCO)",
+      "Aramco Overseas Company",
+      "Global Manufacturing & Refining"
+    ],
+    "products_and_services": [
+      "Crude oil production and export",
+      "Natural gas processing",
+      "Petroleum products (gasoline, diesel, jet fuel)",
+      "Petrochemicals and polymers",
+      "Lubricants and specialty chemicals",
+      "LNG (Liquefied Natural Gas)",
+      "Technology licensing and services"
+    ],
+    "target_industries": [
+      "Energy & Utilities",
+      "Petrochemicals",
+      "Transportation & Logistics",
+      "Industrial Manufacturing",
+      "Power Generation",
+      "Aviation"
+    ],
+    "revenue": "Approximately $404 billion (2023)",
+    "employees": "Approximately 70,000+ employees worldwide"
+  },
+  "leadership_signals": {
+    "executives": [
+      {"name": "Amin H. Nasser", "title": "President & Chief Executive Officer"},
+      {"name": "Ziad T. Al-Murshed", "title": "Executive Vice President & Chief Financial Officer"},
+      {"name": "Mohammed Y. Al Qahtani", "title": "Executive Vice President, Technology & Innovation"},
+      {"name": "Nasser A. Al-Nafisee", "title": "Executive Vice President, Strategy & Corporate Development"}
+    ],
+    "note": "Named executives sourced only from official public company sources including aramco.com annual reports and press releases."
+  },
+  "strategic_initiatives": {
+    "transformation": [
+      "Vision 2030 alignment: diversifying revenue beyond oil through downstream expansion",
+      "Digital transformation program across all business units",
+      "Smart Manufacturing initiative with Industry 4.0 technologies",
+      "Giga-scale carbon capture and storage (CCS) projects"
+    ],
+    "erp_implementations": [
+      "Enterprise-wide SAP S/4HANA migration for integrated business processes",
+      "Digital twin deployment for oilfield operations optimization"
+    ],
+    "ai_initiatives": [
+      "AI-powered predictive maintenance across refineries and pipelines",
+      "Machine learning models for reservoir simulation and optimization",
+      "Robotics and autonomous systems for hazardous operations",
+      "AI-enhanced seismic data processing for exploration"
+    ],
+    "supply_chain": [
+      "In-Kingdom Total Value Add (IKTVA) program to localize supply chain",
+      "Blockchain-based supply chain traceability pilot",
+      "Integrated logistics platform for global trading operations"
+    ],
+    "investments": [
+      "USD 140 billion capital expenditure program through 2030",
+      "Significant investments in clean energy technologies",
+      "Joint ventures with global petrochemical leaders (BASF, Total, Dow)",
+      "Acquisition of 70% stake in SABIC for USD 69.1 billion (2020)"
+    ],
+    "expansions": [
+      "Jafurah natural gas field development - largest unconventional gas project in Middle East",
+      "Expansion of Ras Tanura refinery complex",
+      "New downstream facilities in China, India, and South Korea",
+      "Renewable energy portfolio: wind, solar, hydrogen projects"
+    ],
+    "other": []
+  },
+  "evidence_sources": [
+    {
+      "url": "https://www.aramco.com/en/investors/annual-report",
+      "title": "Saudi Aramco Annual Report 2023",
+      "relevance": "Primary source for financial data, leadership, and strategic initiatives"
+    },
+    {
+      "url": "https://www.aramco.com/en/news-media/news/2024/aramco-capital-expenditure",
+      "title": "Aramco Capital Expenditure Plans 2024",
+      "relevance": "Investment and expansion details"
+    },
+    {
+      "url": "https://www.aramco.com/en/creating-value/technology/digital-transformation",
+      "title": "Aramco Digital Transformation Overview",
+      "relevance": "Digital transformation and AI initiatives"
+    },
+    {
+      "url": "https://www.aramco.com/en/creating-value/technology/in-kingdom-total-value-add",
+      "title": "IKTVA Program - Aramco",
+      "relevance": "Supply chain localization strategy"
+    },
+    {
+      "url": "https://www.aramco.com/en/news-media/news/2024/jafurah-gas-field-development",
+      "title": "Jafurah Natural Gas Field Development Update",
+      "relevance": "Major expansion initiative"
+    }
+  ],
+  "generated_at": "2024-12-01T00:00:00",
+  "data_quality_note": "This is a sample report demonstrating the Account Intelligence Radar output format. Data sourced from publicly available official Aramco communications. Verify critical information independently."
+}
