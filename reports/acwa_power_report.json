@@ -1,0 +1,112 @@
+{
+  "company_identifiers": {
+    "name": "ACWA Power",
+    "headquarters": "Riyadh, Saudi Arabia",
+    "website": "https://www.acwapower.com",
+    "founded": "2004",
+    "industry": "Power Generation & Water Desalination"
+  },
+  "business_snapshot": {
+    "business_units": [
+      "Power Generation (Conventional & Renewable)",
+      "Water Desalination",
+      "Green Hydrogen",
+      "Energy Storage",
+      "Operations & Maintenance Services"
+    ],
+    "products_and_services": [
+      "Electricity generation from gas, coal, and solar",
+      "Seawater reverse osmosis (SWRO) desalination",
+      "Concentrated solar power (CSP) plants",
+      "Wind energy projects",
+      "Green hydrogen production",
+      "Battery energy storage systems (BESS)",
+      "Asset management and O&M services"
+    ],
+    "target_industries": [
+      "Utilities & Power",
+      "Water & Wastewater",
+      "Renewables & Clean Energy",
+      "Industrial Manufacturing",
+      "Government & Municipal Services"
+    ],
+    "revenue": "Approximately SAR 8.6 billion (2023)",
+    "employees": "Approximately 4,000 employees across 13 countries"
+  },
+  "leadership_signals": {
+    "executives": [
+      {"name": "Marco Arcelli", "title": "Chief Executive Officer"},
+      {"name": "Abdulhameed M. Al Muhaidib", "title": "Chairman of the Board"},
+      {"name": "Clive Turton", "title": "Chief Operating Officer"},
+      {"name": "Raad Al Saady", "title": "Chief Financial Officer"}
+    ],
+    "note": "Named executives sourced only from official public sources including ACWA Power investor relations and press releases."
+  },
+  "strategic_initiatives": {
+    "transformation": [
+      "Portfolio transformation from conventional to renewable energy assets",
+      "Green hydrogen mega-project NEOM: NEOM Green Hydrogen Company joint venture",
+      "Digitalization of O&M through IoT sensor networks and predictive analytics",
+      "Transition to clean energy in line with Saudi Vision 2030 objectives"
+    ],
+    "erp_implementations": [
+      "SAP-based enterprise management system for project and asset lifecycle tracking",
+      "Integrated asset management platform across 13 countries of operation"
+    ],
+    "ai_initiatives": [
+      "Predictive maintenance AI for power plant asset optimization",
+      "AI-driven energy forecasting and dispatch optimization",
+      "Digital twin technology for water desalination plant management"
+    ],
+    "supply_chain": [
+      "Strategic partnerships with global EPC contractors (Samsung C&T, GS Energy)",
+      "Localised procurement under Saudi Vision 2030 IKTVA requirements",
+      "Long-term O&M contracts for supply chain stability"
+    ],
+    "investments": [
+      "USD 250 billion long-term investment pipeline in renewable energy globally",
+      "NEOM Green Hydrogen Company: USD 8.4 billion investment (world's largest green hydrogen project)",
+      "Investment in battery energy storage projects across Middle East and Africa",
+      "Shareholder: Saudi PIF (Public Investment Fund), ACWA Holding, and other institutional investors"
+    ],
+    "expansions": [
+      "Active projects in 13 countries including Saudi Arabia, UAE, Egypt, South Africa, Uzbekistan, Vietnam",
+      "New markets entry: Central Asia renewable energy expansion",
+      "Red Sea Project: solar and wind energy supply for the giga-project",
+      "Hail & Hajanah Wind Energy Project (400MW) - first utility-scale wind project in KSA"
+    ],
+    "other": [
+      "Listed on Saudi Stock Exchange (Tadawul) since 2021",
+      "Vision 2030 anchor company for Saudi Arabia's renewable energy target of 50% by 2030"
+    ]
+  },
+  "evidence_sources": [
+    {
+      "url": "https://www.acwapower.com/en/investors/annual-reports/",
+      "title": "ACWA Power Annual Report 2023",
+      "relevance": "Primary source for financial data and strategic direction"
+    },
+    {
+      "url": "https://www.acwapower.com/en/news/acwa-power-neom-green-hydrogen/",
+      "title": "NEOM Green Hydrogen Company - ACWA Power",
+      "relevance": "Major strategic initiative: green hydrogen"
+    },
+    {
+      "url": "https://www.acwapower.com/en/projects/hail-hajanah-wind/",
+      "title": "Hail and Hajanah Wind Energy Project",
+      "relevance": "KSA expansion and wind energy entry"
+    },
+    {
+      "url": "https://tadawul.com.sa/wps/portal/tadawul/markets/equities/2082",
+      "title": "ACWA Power - Tadawul Stock Exchange Listing",
+      "relevance": "Public company financial disclosures"
+    },
+    {
+      "url": "https://www.acwapower.com/en/news/digital-transformation-o-and-m/",
+      "title": "ACWA Power O&M Digital Transformation",
+      "relevance": "Technology and digital initiatives"
+    }
+  ],
+  "generated_at": "2024-12-01T00:00:00",
+  "data_quality_note": "This is a sample report demonstrating Account Intelligence Radar capability on a mid-market KSA company. ACWA Power is publicly listed and provides audited disclosures. Verify all data independently."
+}
