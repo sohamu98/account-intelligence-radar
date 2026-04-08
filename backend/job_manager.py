@@ -2,7 +2,7 @@
 import asyncio
 import logging
 import uuid
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Optional
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from .models import JobStatus
@@ -18,8 +18,8 @@ class Job:
         self.job_type = job_type  # "company" or "geography"
         self.params = params
         self.status = JobStatus.QUEUED
-        self.created_at = datetime.utcnow()
-        self.updated_at = datetime.utcnow()
+        self.created_at = datetime.now(timezone.utc)
+        self.updated_at = datetime.now(timezone.utc)
         self.progress: Optional[str] = None
         self.result: Optional[dict[str, Any]] = None
         self.error: Optional[str] = None
@@ -103,11 +103,11 @@ class JobManager:
             return
         
         job.status = JobStatus.PROCESSING
-        job.updated_at = datetime.utcnow()
+        job.updated_at = datetime.now(timezone.utc)
         
         async def progress_callback(msg: str):
             job.progress = msg
-            job.updated_at = datetime.utcnow()
+            job.updated_at = datetime.now(timezone.utc)
         
         try:
             from .pipeline import run_company_pipeline, run_geography_pipeline
@@ -131,7 +131,7 @@ class JobManager:
                 job.result = result.model_dump(mode="json")
             
             job.status = JobStatus.COMPLETED
-            job.updated_at = datetime.utcnow()
+            job.updated_at = datetime.now(timezone.utc)
             logger.info("Job %s completed successfully", job_id)
         
         except ValueError as e:
@@ -139,14 +139,14 @@ class JobManager:
             error_msg = str(e)
             job.status = JobStatus.FAILED
             job.error = error_msg
-            job.updated_at = datetime.utcnow()
+            job.updated_at = datetime.now(timezone.utc)
             logger.warning("Job %s failed with user error: %s", job_id, type(e).__name__)
         
         except Exception as e:
             # Unexpected errors - don't expose internals
             job.status = JobStatus.FAILED
             job.error = "An unexpected error occurred. Please check your API keys and try again."
-            job.updated_at = datetime.utcnow()
+            job.updated_at = datetime.now(timezone.utc)
             logger.error("Job %s failed with unexpected error: %s", job_id, type(e).__name__)
     
     def shutdown(self):

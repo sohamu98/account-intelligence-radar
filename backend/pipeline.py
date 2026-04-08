@@ -1,7 +1,7 @@
 """Intelligence pipeline: SerpAPI → DeepSeek → Firecrawl Extract."""
 import json
 import logging
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any, Optional
 import httpx
 from .config import get_settings
@@ -398,7 +398,7 @@ def build_report(
         leadership_signals=leadership,
         strategic_initiatives=initiatives,
         evidence_sources=evidence,
-        generated_at=datetime.utcnow(),
+        generated_at=datetime.now(timezone.utc),
         data_quality_note=(
             "This report is auto-generated from publicly available web sources. "
             "Verify critical information independently before use."
@@ -513,7 +513,7 @@ async def run_geography_pipeline(
         criteria=criteria,
         companies_found=companies,
         reports=reports,
-        generated_at=datetime.utcnow(),
+        generated_at=datetime.now(timezone.utc),
     )
 
 

@@ -5,7 +5,7 @@ import json
 import logging
 import os
 from contextlib import asynccontextmanager
-from datetime import datetime
+from datetime import datetime, timezone
 from typing import Any
 
 from fastapi import Depends, FastAPI, HTTPException
@@ -95,7 +95,7 @@ async def submit_company_job(
         job_id=job_id,
         status=JobStatus.QUEUED,
         message=f"Job created for company: {request.company_name}",
-        created_at=datetime.utcnow(),
+        created_at=datetime.now(timezone.utc),
     )
 
 
@@ -123,7 +123,7 @@ async def submit_geography_job(
         job_id=job_id,
         status=JobStatus.QUEUED,
         message=f"Job created for geography: {request.location} ({request.criteria})",
-        created_at=datetime.utcnow(),
+        created_at=datetime.now(timezone.utc),
     )
 
 

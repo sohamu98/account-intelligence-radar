@@ -1,5 +1,5 @@
 """Pydantic models for request/response validation."""
-from datetime import datetime
+from datetime import datetime, timezone
 from enum import Enum
 from typing import Any, Optional
 from pydantic import BaseModel, Field
@@ -96,7 +96,7 @@ class IntelligenceReport(BaseModel):
     leadership_signals: LeadershipSignals
     strategic_initiatives: StrategicInitiatives
     evidence_sources: list[EvidenceSource] = []
-    generated_at: datetime = Field(default_factory=datetime.utcnow)
+    generated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
     data_quality_note: Optional[str] = None
 
 
@@ -105,4 +105,4 @@ class GeographyResult(BaseModel):
     criteria: str
     companies_found: list[str] = []
     reports: list[IntelligenceReport] = []
-    generated_at: datetime = Field(default_factory=datetime.utcnow)
+    generated_at: datetime = Field(default_factory=lambda: datetime.now(timezone.utc))
